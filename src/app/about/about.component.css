@@ -1,0 +1,13 @@
+.about
+{
+    background-color:  rgb(26,188,156);
+    /* height: 400px; */
+    padding: 130px;
+}
+
+.line
+{
+    height: 5px;
+    width: 80px;
+    background-color: white;
+}

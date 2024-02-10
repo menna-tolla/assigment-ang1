@@ -1,0 +1,56 @@
+.port
+{
+    color:rgb(44,62,80);
+    padding: 30px 100px;
+}
+
+.line
+{
+    height: 5px;
+    width: 80px;
+    background-color: rgb(44,62,80);
+}
+img
+{
+    width: 100%;
+}
+.overlay-container i
+{
+    font-size: 100px;
+}
+
+.overlay-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;    
+    margin-top: 30px;
+}
+
+.overlay-div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color:rgb(26,188,156) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.overlay-container:hover .overlay-div {
+    opacity: 0.8;
+}
+.bg
+{
+    background-color:rgb(26,188,156) ;
+}
+.overlay
+{
+    background-image: url("/assets/img/photo home1 (1).png");
+}
+

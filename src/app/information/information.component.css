@@ -1,0 +1,15 @@
+.information
+{
+    background-color: rgb(44,62,80);
+}
+.icons i{
+    border:1px white solid;
+    border-radius: 51% ;
+    padding: 10px;
+    margin: 10px;
+} 
+.icons i:hover
+{
+    background-color: rgb(249, 249, 249);
+    color: rgb(44,62,80);
+}
